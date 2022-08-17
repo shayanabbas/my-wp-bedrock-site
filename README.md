@@ -30,7 +30,8 @@ After running the project it keep reloading and dies with 504 Gateway Timeout er
 2) Using Colima it shows same issue.
 3) Tried using both server types `webserver_type: nginx-fpm  # or apache-fpm`
 4) Tried Colima + Mutagen: It works but ddev doesnt get synced, If i try to do `ddev stop` or `ddev mutagen sync` it doesnt work. (probably this could be a different issue)
-5) Tried updated ddev + docker 
+5) Tried updating ddev + docker 
+6) Removing all containers and images and recreating
 
 #### Note: Simple WordPress and Drupal setup are working out of the box except Laravel and BedRock
 Issue has been in discussion at https://github.com/drud/ddev/issues/4122
